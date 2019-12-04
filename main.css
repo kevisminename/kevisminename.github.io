@@ -2,15 +2,61 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
+
+}
+.home-commonWindow {
+    max-width:  1000px;
+    max-height: 400px;
+    overflow: hidden;
+    display: inline-block;
+    width: 295px;
+    height: 280px;
+    background-color: white;
+    
+}
+.home-contentOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+p {
+    position: relative;
+    top: 208px;
+
+}
+.home-common-title {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 109, 178, 0.44);
+
+}
+.home-common-contnet {
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(241, 241, 241, 0.44);
+
+}
+.home-layout {
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto;
+
 }
 .home-header {
     margin:  0 auto;
     padding: 0;
     width: 91%;
+    height:100px;
     max-width:  1400px;
     max-height: 400px;
     overflow: hidden;
-    height:100px;
     background-image: url("./images/starfield-banner.jpg");
     position: fixed;
     left: 67px; 
@@ -22,35 +68,30 @@ body {
     
 }
 .home-header-logo {
-    /* display: inline-block; */
-    /* background-color: black; */
-    background-image: url("./images/nasa_logo.png");
+   
     width: 80px;
     height: 80px;
-    max-width:  200px;
-    max-height: 200px;
-    overflow: hidden;
-    background-repeat:none;
+    background-image: url("./images/nasa_logo.png");
+    background-repeat: no-repeat;
     background-size: 80px, 80px;
     position: relative;
-    top:20px;
+    top: 20px;
 
 }
 .home-header-category {
     width:800px;
     position: relative;
     left:40px;
-    max-width:  1400px;
-    max-height: 400px;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 .home-header-search {
     position: relative;
     top:10px;
     left:-10px;
+
 }
 .hhs-input {
     width: 120px;
@@ -64,9 +105,6 @@ body {
    
 }
 .home-header-search::before {
-    max-width:  200px;
-    max-height: 200px;
-    overflow: hidden;
     content: url("./images/search.svg");
     position: relative;
     top: 10px;
@@ -75,9 +113,6 @@ body {
     
 }
 .home-header-search::after {
-    max-width:  200px;
-    max-height: 200px;
-    overflow: hidden;
     content: url("./images/share.svg");
     position: relative;
     top: -156px;
@@ -86,29 +121,27 @@ body {
 }
 .hhc-1 {
     text-align: center;
-    width: 100%;
-    max-width:1000px;
-    overflow: hidden;    
+    width: 100%;   
     border-color: grey;
     position: relative;
-    left:0px;
-    top:10px;
+    left: 0px;
+    top: 10px;
+
 }
 .hhc1-td {
     padding: 5px;
-    font-size:20px;
+    font-size: 20px;
     color: #AFADAD;
+
 }
 .hhc-1div {
     position: relative;
-    top:6px;
+    top: 6px;
 
 }
 .hhc-2 {
     text-align: center;
     width: 900px;
-    max-width:1000px;
-    overflow: hidden;
     background-color: transparent;
     border-color: white;
    
@@ -118,22 +151,18 @@ body {
     width: 900px;
     background-color: grey;
     position: relative;
-    left:-100px;
+    left: -100px;
+
 }
 .hhc2-td {
-    font-size:14px;
-}
-.home-layout {
-    width: 90%;
-    max-width: 1300px;
-    margin: 0 auto;
+    font-size: 14px;
 
 }
 .home-content {
     width: 100%;
     background-color: transparent;
     position: relative;
-    top:100px;
+    top: 100px;
     margin: 0;
     padding: 0;
 
@@ -142,7 +171,6 @@ body {
     max-width:  200px;
     max-height: 200px;
     overflow: hidden;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -150,25 +178,12 @@ body {
     color: white;
 
 }
-.home-commonWindow {
-    max-width:  1000px;
-    max-height: 400px;
-    overflow: hidden;
-    display: inline-block;
-    width:295px;
-    height:280px;
-    background-color: white;
-}
-.home-contentOne {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-}
 .hco-left {
     background-image: url("./images/pia21924-16.jpg"); 
     background-color: white;
     width: 600px;
     height: 570px;
+
 }
 .home-headline-title {
     display: inline-block;
@@ -179,6 +194,7 @@ body {
     background-color: rgba(0, 109, 178, 0.44);
     position: relative;
     top:498px;
+
 }
 .home-headline-content {
     margin: 0;
@@ -208,9 +224,11 @@ body {
 }
 .hcoru-1 {
     background-image: url("./images/mollweide_cycle.jpg");
+
 }
 .hcoru-2 {
     background-color:#086681;
+
 }
 .hcoru2-title {
     width: 90%;
@@ -222,6 +240,7 @@ body {
     left:0;
     border: 1px solid;
     border-color: transparent transparent white transparent;
+
 }
 .hcoru2-content1 {
     width: 96%;
@@ -233,6 +252,7 @@ body {
     padding: 0;
     top:0;
     left:0;
+
 }
 .hcoru2-table {
     width: 90%;
@@ -243,6 +263,7 @@ body {
     justify-content: space-around;
     border: 1px solid;
     border-color: white transparent transparent transparent;
+
 }
 .hcoru2-table-content {
     display: inline-block;
@@ -255,8 +276,8 @@ body {
     height: 280px;
     background-color: white;
     background-image: url("./images/s69-39961.jpg");
-}
 
+}
 .home-contentTwo {
     margin: 10px 0 0 0; 
     width: 100%;
@@ -264,15 +285,17 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 .hctw-left {
     background-image: url("./images/ssc2017-14a1.jpg");
     background-size: 480px 280px; 
     background-position: -180px 0px;
     background-repeat: no-repeat;
+
 }
 .hctwl-icon {
-    float:right;
+    float: right;
     position: relative;
     left: -4px;
     top: 4px;
@@ -280,6 +303,7 @@ body {
 }
 .hctw-right {
     background-color: black;
+
 }
 .hctw-middle {
     width: 600px;
@@ -287,6 +311,7 @@ body {
     background-color: white;
     display: inline-block;
     background-image: url("./images/pia22556-16.gif");
+
 }
 .home-contentThree {
     margin: 10px 0 0 0;
@@ -297,29 +322,9 @@ body {
     justify-content: space-between;
 
 }
-p {
-    position: relative;
-    top: 208px;
-}
-.home-common-title {
-    display: inline-block;
-    margin: 0;
-    padding: 5px 10px 5px 10px;
-    font-size: 20px;
-    color: white;
-    background-color: rgba(0, 109, 178, 0.44);
-}
-.home-common-contnet {
-    margin: 0;
-    padding: 5px 10px 5px 10px;
-    font-size: 20px;
-    color: black;
-    font-weight: bold;
-    background-color: rgba(241, 241, 241, 0.44);
-}
 .home-contentFour {
     background-color: blue;
-    width:100%;
+    width: 100%;
     margin: 20px 0 10px 0;
     padding: 5px 0 5px 0;
     text-align: center;
@@ -343,48 +348,52 @@ p {
 }
 .hcf-content {
     font-size: 20px;
-    color:white;
+    color: white;
     text-decoration: none;
+
 }
 .home-footer {
-    max-width:  1600px;
+    margin: 0 auto;
+    padding: 0 0 40px 0;
+    max-width:  1800px;
     max-height: 400px;
     overflow: hidden;
     background-color: transparent;
-    width: 90%;
+    width: 100%;
     position: relative;
-    left:70px;
     top: 110px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 .home-footer-left {
-    display: inline-block;
     width: 30%;
-    height:50px;
+    height: 50px;
     position: relative;
-    left:80px;
+    left: 80px;
+
 }
 .home-footer-left::after {
     content: url("./images/nasa-logo.svg");
     position: relative;
-    top:-50px;
-    left:-90px;
+    top: -50px;
+    left: -90px;
+
 }
 .hfl-content {
     position: relative;
-    top:0px;
+    top: 0px;
     color: white;
     font-size: 14px;
+
 }
 .home-footer-right{
-    display: inline-block;
     position: relative;
-    left:470px;
+    left: 470px;
+
 }
 td {
-    font-size:10px;
+    font-size: 10px;
     color: white;
 }
