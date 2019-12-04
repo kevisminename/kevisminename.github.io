@@ -6,7 +6,7 @@ body {
 }
 .home-commonWindow {
     max-width:  1000px;
-    max-height: 400px;
+    max-height: 1000px;
     overflow: hidden;
     display: inline-block;
     width: 295px;
@@ -25,6 +25,8 @@ body {
 
 }
 .home-common-title {
+    max-height: 100px;
+    overflow: hidden;
     display: inline-block;
     margin: 0;
     padding: 5px 10px 5px 10px;
@@ -35,6 +37,9 @@ body {
 
 }
 .home-common-contnet {
+    max-height: 100px;
+    overflow: hidden;
+
     margin: 0;
     padding: 5px 10px 5px 10px;
     font-size: 12px;
@@ -164,17 +169,6 @@ body {
     padding: 0;
 
 }
-.home-commonContent {
-    max-width:  200px;
-    max-height: 200px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: baseline;
-    color: white;
-
-}
 .hco-left {
     background-image: url("./images/pia21924-16.jpg"); 
     background-color: white;
@@ -186,6 +180,9 @@ body {
 
 }
 .home-headline-title {
+    max-height: 100px;
+    overflow: hidden;
+
     display: inline-block;
     margin: 0;
     padding: 5px 10px 5px 10px;
@@ -196,6 +193,9 @@ body {
 
 }
 .home-headline-content {
+    max-height: 100px;
+    overflow: hidden;
+
     margin: 0;
     padding: 5px 10px 5px 10px;
     font-size: 16px;
