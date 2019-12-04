@@ -45,7 +45,7 @@ p {
 }
 .home-layout {
     width: 90%;
-    max-width: 1800px;
+    max-width: 2000px;
     margin: 0 auto;
 
 }
@@ -54,13 +54,11 @@ p {
     padding: 0;
     width: 91%;
     height:100px;
-    max-width:  1400px;
+    max-width:  2000px;
     max-height: 400px;
     overflow: hidden;
     background-image: url("./images/starfield-banner.jpg");
     position: fixed;
-    left: 67px; 
-    top: -10px; 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -355,7 +353,7 @@ p {
 .home-footer {
     margin: 0 auto;
     padding: 0 0 40px 0;
-    max-width:  1800px;
+    max-width:  2000px;
     max-height: 400px;
     overflow: hidden;
     background-color: transparent;
