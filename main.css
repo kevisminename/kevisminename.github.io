@@ -1,20 +1,390 @@
 body {
     background-color: black;
-    width: 95%;
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
-
-.header {
-    background: url('素材/starfield-banner.jpg ');
+.home-header {
+    margin:  0 auto;
+    padding: 0;
+    width: 91%;
+    max-width:  1400px;
+    max-height: 400px;
+    overflow: hidden;
+    height:100px;
+    background-image: url("./images/starfield-banner.jpg");
     position: fixed;
-    width: 95%;
+    left: 67px; 
+    top: -10px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+    
+}
+.home-header-logo {
+    /* display: inline-block; */
+    /* background-color: black; */
+    background-image: url("./images/nasa_logo.png");
+    width: 80px;
+    height: 80px;
+    max-width:  200px;
+    max-height: 200px;
+    overflow: hidden;
+    background-repeat:none;
+    background-size: 80px, 80px;
+    position: relative;
+    top:20px;
+
+}
+.home-header-category {
+    width:800px;
+    position: relative;
+    left:40px;
+    max-width:  1400px;
+    max-height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.home-header-search {
+    position: relative;
+    top:10px;
+    left:-10px;
+}
+.hhs-input {
+    width: 120px;
+    height: 40px;
+    background-color: #454242;
+    color: grey;
+    border: 0;
+    position: relative;
+    top: -110px;
+    left: -30px;
+   
+}
+.home-header-search::before {
+    max-width:  200px;
+    max-height: 200px;
+    overflow: hidden;
+    content: url("./images/search.svg");
+    position: relative;
+    top: 10px;
+    left: 50px;
+    z-index: 6;
+    
+}
+.home-header-search::after {
+    max-width:  200px;
+    max-height: 200px;
+    overflow: hidden;
+    content: url("./images/share.svg");
+    position: relative;
+    top: -156px;
+    left: 80px;
+    
+}
+.hhc-1 {
+    text-align: center;
+    width: 100%;
+    max-width:1000px;
+    overflow: hidden;    
+    border-color: grey;
+    position: relative;
+    left:0px;
+    top:10px;
+}
+.hhc1-td {
+    padding: 5px;
+    font-size:20px;
+    color: #AFADAD;
+}
+.hhc-1div {
+    position: relative;
+    top:6px;
+
+}
+.hhc-2 {
+    text-align: center;
+    width: 900px;
+    max-width:1000px;
+    overflow: hidden;
+    background-color: transparent;
+    border-color: white;
+   
+}
+.hhc-2div {
+    padding: 6px;
+    width: 900px;
+    background-color: grey;
+    position: relative;
+    left:-100px;
+}
+.hhc2-td {
+    font-size:14px;
+}
+.home-layout {
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+.home-content {
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    top:100px;
+    margin: 0;
+    padding: 0;
+
+}
+.home-commonContent {
+    max-width:  200px;
+    max-height: 200px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    color: white;
+
+}
+.home-commonWindow {
+    max-width:  1000px;
+    max-height: 400px;
+    overflow: hidden;
+    display: inline-block;
+    width:295px;
+    height:280px;
+    background-color: white;
+}
+.home-contentOne {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.hco-left {
+    background-image: url("./images/pia21924-16.jpg"); 
+    background-color: white;
+    width: 600px;
+    height: 570px;
+}
+.home-headline-title {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 109, 178, 0.44);
+    position: relative;
+    top:498px;
+}
+.home-headline-content {
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(241, 241, 241, 0.44);
+    position: relative;
+    top:498px;
+
+}
+.hco-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 570px;
+    
+}
+.hcor-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    
+}
+.hcoru-1 {
+    background-image: url("./images/mollweide_cycle.jpg");
+}
+.hcoru-2 {
+    background-color:#086681;
+}
+.hcoru2-title {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    top:0;
+    left:0;
+    border: 1px solid;
+    border-color: transparent transparent white transparent;
+}
+.hcoru2-content1 {
+    width: 96%;
+    font-size: 14px;
+    color: white;
+    height: 240px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    top:0;
+    left:0;
+}
+.hcoru2-table {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid;
+    border-color: white transparent transparent transparent;
+}
+.hcoru2-table-content {
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    
+}
+.hcor-down {
+    width: 600px;
+    height: 280px;
+    background-color: white;
+    background-image: url("./images/s69-39961.jpg");
 }
 
-.header .logo-link {
-    padding: 10px;
+.home-contentTwo {
+    margin: 10px 0 0 0; 
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+.hctw-left {
+    background-image: url("./images/ssc2017-14a1.jpg");
+    background-size: 480px 280px; 
+    background-position: -180px 0px;
+    background-repeat: no-repeat;
+}
+.hctwl-icon {
+    float:right;
+    position: relative;
+    left: -4px;
+    top: 4px;
+    
+}
+.hctw-right {
+    background-color: black;
+}
+.hctw-middle {
+    width: 600px;
+    height: 280px;
+    background-color: white;
+    display: inline-block;
+    background-image: url("./images/pia22556-16.gif");
+}
+.home-contentThree {
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-.header .logo {
-    width:110px;
-    margin:11px;
+}
+p {
+    position: relative;
+    top: 208px;
+}
+.home-common-title {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 109, 178, 0.44);
+}
+.home-common-contnet {
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(241, 241, 241, 0.44);
+}
+.home-contentFour {
+    background-color: blue;
+    width:100%;
+    margin: 20px 0 10px 0;
+    padding: 5px 0 5px 0;
+    text-align: center;
+
+}
+.hcth-1 {
+    background-image: url("./images/nasa_logo.png");
+    
+}
+.hcth-2 {
+    background-image: url("./images/io-home.gif");
+    
+}
+.hcth-3 {
+    background-image: url("./images/cassini20170809.jpg");
+    
+}
+.hcth-4 {
+    background-image: url("./images/fermiicecube_as.jpg");
+    
+}
+.hcf-content {
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+.home-footer {
+    max-width:  1600px;
+    max-height: 400px;
+    overflow: hidden;
+    background-color: transparent;
+    width: 90%;
+    position: relative;
+    left:70px;
+    top: 110px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.home-footer-left {
+    display: inline-block;
+    width: 30%;
+    height:50px;
+    position: relative;
+    left:80px;
+}
+.home-footer-left::after {
+    content: url("./images/nasa-logo.svg");
+    position: relative;
+    top:-50px;
+    left:-90px;
+}
+.hfl-content {
+    position: relative;
+    top:0px;
+    color: white;
+    font-size: 14px;
+}
+.home-footer-right{
+    display: inline-block;
+    position: relative;
+    left:470px;
+}
+td {
+    font-size:10px;
+    color: white;
 }
